@@ -56,13 +56,14 @@ body {
     line-height: 130px;
     position: absolute;
     top: 250px;
-    left: 100px;
+    left: -100%;
+    padding-left: 100px;
+    animation: anim3 2s forwards 2.5s;
     overflow: hidden;
 }
 #text{
     position: relative;
     left: -100%;
-    animation: anim3 2s forwards 3s;
 }
 @keyframes anim3{
     from{
